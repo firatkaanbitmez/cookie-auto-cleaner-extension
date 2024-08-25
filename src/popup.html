@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Auto Cleaner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cookie Auto Cleaner</h1>
+        <div class="interval-setting">
+            <label for="clean-interval">Set Cleaning Interval (minutes):</label>
+            <input type="number" id="clean-interval" min="1" max="1440">
+        </div>
+        <button id="apply-settings" class="primary-button">Apply Settings</button>
+        <button id="clean-now" class="secondary-button">Clean Cookies Now</button>
+        <p id="status-message"></p>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
