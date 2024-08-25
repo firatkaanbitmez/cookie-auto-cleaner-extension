@@ -15,13 +15,8 @@
     "action": {
       "default_popup": "popup.html",
       "default_icon": "icons/icon48.png"
-    },
-    "content_scripts": [
-      {
-        "matches": ["<all_urls>"],
-        "js": ["content.js"]
-      }
-    ],
+    }
+    ,
     "host_permissions": ["<all_urls>"],
     "options_ui": {
       "page": "popup.html",
