@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
     // Load the saved interval setting
     chrome.storage.sync.get(["cleanInterval"], (result) => {
-      intervalInput.value = result.cleanInterval || 30; // Default to 30 minutes
+      intervalInput.value = result.cleanInterval || 15; // Default to 15 minutes
     });
   
     // Apply new settings when the user clicks "Apply Settings"
